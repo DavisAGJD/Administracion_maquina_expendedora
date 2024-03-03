@@ -7,8 +7,14 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-image: url(../images/Fondo2.avif);
+    background-image: url(../images/FondoAM.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    margin: 0; 
+    padding: 0; 
 }
+
 
 .container {
     width: 90%;
@@ -34,11 +40,9 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(../images/Maquina\ ex.jpg);
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
     z-index: -1;
-
 }
 
 .nav {
@@ -69,13 +73,6 @@ body {
     color: #fff;
     text-decoration: none;
 }
-
-.nav_menu {
-    margin-left: auto;
-    cursor: pointer;
-    display: none;
-}
-
 .nav_img {
     display: block;
     width: 30px;
@@ -86,3 +83,52 @@ body {
     display: var(--show, none);
 }
 
+/* hero container */
+
+.hero_container{
+    max-width: 800px;
+    --padding-container: 0;
+    display: grid;
+    grid-auto-rows: max-content;
+    align-content: center;
+    gap: 1em;
+    padding-bottom: 100px;
+    text-align: center;
+
+}
+
+.hero_tittle{
+    font-size: 3rem;
+}
+
+.hero_paragraph{
+    margin-bottom: 20px;
+}
+
+.IM{
+    display: inline-block;
+    background-color: #2091F9;
+    justify-self: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 13px 30px;
+    border-radius: 32px;
+}
+.PV_MVP{
+    display: inline-block;
+    background-color: #2091F9;
+    justify-self: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 13px 30px;
+    border-radius: 32px;
+}
+.PVMMP{
+    display: inline-block;
+    background-color: #2091F9;
+    justify-self: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 13px 30px;
+    border-radius: 32px;
+}
